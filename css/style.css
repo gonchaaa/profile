@@ -1,0 +1,189 @@
+#profile {
+  width: 100%;
+  padding: 6rem;
+  background-image: url(https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/REJ93.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+#profile h1 {
+  color: #072F60;
+  font-size: 40px;
+  font-weight: bold;
+}
+#profile a {
+  text-decoration: none;
+  color: gray;
+}
+#profile .prof {
+  color: gray;
+  transition: 0.3s ease-in-out;
+}
+#profile .homeprof {
+  color: gray;
+  transition: 0.3s ease-in-out;
+}
+
+.homeprof-active {
+  color: #3BBCA7 !important;
+}
+
+#log {
+  padding: 5rem 0;
+}
+#log .login {
+  padding: 0 0 13rem 0;
+  box-shadow: 0px 5px 10px rgb(190, 189, 189);
+}
+#log .login .login-one {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+#log .login .login-one h3 {
+  color: #072F60;
+  line-height: 80px;
+  font-weight: bold;
+  font-size: 35px;
+}
+#log .login .login-one p {
+  color: rgb(105, 105, 105);
+  font-size: 16px;
+}
+#log .login .login-one input {
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+}
+#log .login .login-one .inputs {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  padding: 0;
+  border-radius: 5px;
+  position: relative;
+}
+#log .login .login-one .inputs .eyes-block {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: rgb(94, 94, 94);
+  position: absolute;
+}
+#log .login .login-one .inputs .eyes-active {
+  display: none;
+}
+#log .login .login-one .inputs .eyes-open {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(94, 94, 94);
+}
+#log .login .login-one .inputs input {
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  width: 93%;
+  background-color: rgb(240, 240, 240);
+}
+#log .login .login-one form #vehicle1 {
+  width: 5%;
+}
+#log .login .login-one form label {
+  color: rgb(105, 105, 105);
+}
+#log .login .login-one .your {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #3BBCA7;
+  text-align: center;
+}
+#log .login .login-one .your a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+#log .register {
+  padding: 0 0 4.5rem 0;
+  box-shadow: 0px 5px 10px rgb(190, 189, 189);
+}
+#log .register .register-one {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+#log .register .register-one h3 {
+  color: #072F60;
+  line-height: 80px;
+  font-weight: bold;
+  font-size: 35px;
+}
+#log .register .register-one p {
+  color: rgb(105, 105, 105);
+  font-size: 16px;
+}
+#log .register .register-one input {
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+}
+#log .register .register-one .inputs {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  padding: 0;
+  border-radius: 5px;
+  position: relative;
+}
+#log .register .register-one .inputs .eyes-block {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: rgb(94, 94, 94);
+  position: absolute;
+}
+#log .register .register-one .inputs .eyes-active {
+  display: none;
+}
+#log .register .register-one .inputs .eyes-open {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(94, 94, 94);
+}
+#log .register .register-one .inputs input {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  width: 93%;
+  background-color: rgb(240, 240, 240);
+}
+#log .register .register-one form #vehicle1 {
+  width: 5%;
+}
+#log .register .register-one form label {
+  color: rgb(105, 105, 105);
+}
+#log .register .register-one .your {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #3BBCA7;
+  text-align: center;
+}
+#log .register .register-one .your a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

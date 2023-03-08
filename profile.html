@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <section id="profile">
+        <h1>Profile</h1>
+            <a class="homeprof" href="#">Home</a>
+            <span>/</span>
+           <a class="prof homeprof-active" href="#">Profile</a>
+    </section>
+
+    <section id="log">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="login">
+                        <div class="login-one">
+                            <h3>Login</h3>
+                            <p>Username or email *</p>
+                            <input type="text" placeholder="Email orusername">
+                            <p>Password *</p>
+                            <div class="inputs"><input type="text" placeholder="Password"><i class="fa-solid fa-eye eyes-open"></i><i class="fa-solid fa-eye-slash eyes-block eyes-active"></i></div>
+                        
+                            <form action="/action_page.php">
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1"> Remember me</label><br>
+                            </form>
+                           <p class="your"><a href="#">Login</a></p> 
+                              
+                            <p>Lost your password?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="register">
+                        <div class="register-one">
+                            <h3>Register</h3>
+                            <p>Email adress *</p>
+                            <input type="text" placeholder="Email">
+                            <p>Username *</p>
+                            <input type="text" placeholder="Username">
+                            <p>Password *</p>
+                            <div class="inputs"><input type="text" placeholder="Password"><i class="fa-solid fa-eye eyes-open"></i><i class="fa-solid fa-eye-slash eyes-block eyes-active"></i></div>
+                         
+                            <p>Confirm Password *</p>
+                            <div class="inputs"><input type="text" placeholder="Password"><i class="fa-solid fa-eye eyes-open"></i><i class="fa-solid fa-eye-slash eyes-block eyes-active"></i></div>
+                           
+                            
+                            <form action="/action_page.php">
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1"> Want to become an instructor?</label><br>
+                            </form>
+                           <div class="your"> <a href="#">Login</a></div>
+                              
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>
